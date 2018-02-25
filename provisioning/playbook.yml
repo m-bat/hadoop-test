@@ -1,0 +1,16 @@
+- hosts: vagrants
+  gather_facts: no
+
+  #For python not installed OS
+  pre_tasks:
+    - name: Update apt cache    
+      become: true
+      raw: apt-get update
+
+    - name: python install    
+      become: true
+      raw: apt-get --yes install python
+
+  roles:
+    - vagrant
+    

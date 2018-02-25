@@ -1,0 +1,1 @@
+{"virtualbox":{"/vagrant_data":{"guestpath":"/vagrant_data","hostpath":"/Users/sugimotomanabu/vm/ansible-test/sync","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/sugimotomanabu/vm/ansible-test","disabled":false,"__vagrantfile":true}}}
